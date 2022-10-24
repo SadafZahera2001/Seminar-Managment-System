@@ -52,7 +52,7 @@ fun SplashScreen(navController: NavHostController) {
         startAnimation = true
         delay(SPLASH_SCREEN_DELAY)
         navController.popBackStack()
-        if (true) {
+        if (false) {
             navController.navigate(Screen.Home.route)
         } else {
             navController.navigate(Screen.Login.route)
